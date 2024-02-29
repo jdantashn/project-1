@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Fjalla";
+    src: url(../fonts/FjallaOne-Regular.ttf) format("truetype");
+}
+
+
+.logo {
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-top: -7px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 18px;
+    margin-left: auto;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #ff7f27;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* TOP BAR - END */
+
+/* COMMON - START */
+.align-center {
+    text-align: center;
+}
+
+.margin-top-m {
+    margin-top: 16px;
+}
+
+.vertical-align-top{
+    vertical-align: top;
+}
+
+
+.bold {
+    font-weight: bold
+}
+
+/* COMMON - END */
+.homepage-image {
+    height: 415px;
+    width: 399px;
+}
+
+.smiley-image {
+    height: 506px;
+    width: 697px;
+}
+
+.gallery-image {
+    height: 260px;
+    width: 350px;
+}
+
+label{
+    width:100px;
+    display: inline-block;
+}
+
+.rounded-input{
+    border-radius: 7px;
+    border-width: 1px;
+}
+
+.column {
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}

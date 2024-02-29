@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    <div class="navbar">
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Photos
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="landscapes.html">Landscapes</a>
+                <a href="animals.html">Animals</a>
+            </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <a href="news.html">News</a>
+    </div>
+
+    <div class="margin-top-m">
+        <form action="http://vip.groupehn.com:20003/html/infospost.php" method='POST'>
+            <div class="margin-top-m">
+                <label for="lastname">Last name</label>
+                <input class="rounded-input" id="lastname" type="text" name="lastname" />
+            </div>
+            <div class="margin-top-m">
+                <label for="firstname">First name</label>
+                <input class="rounded-input" id="firstname" type="text" name="firstname" />
+            </div>
+            <div class="margin-top-m">
+                <label for="mail">Email</label>
+                <input class="rounded-input" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+            </div>
+            <div class="margin-top-m">
+                <label for="request" class="vertical-align-top">Request</label>
+                <textarea class="rounded-input" name="request" id="request" cols="66" rows="10"></textarea>
+            </div>
+            <div class="margin-top-m">
+                <label for="country">Country</label>
+                <select class="rounded-input" name="country" id="country">
+                    <option value="portugal">Portugal</option>
+                    <option value="france">France</option>
+                    <option value="spain">Spain</option>
+                    <option value="germany">Germany</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit" class="margin-top-m" method='POST'>
+        </form>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
